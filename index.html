@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Spice Garden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-green-700 text-white p-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Mata Spice Garden</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-yellow-300">Home</a></li>
+                    <li><a href="#" class="hover:text-yellow-300">Products</a></li>
+                    <li><a href="#" class="hover:text-yellow-300">About</a></li>
+                    <li><a href="#" class="hover:text-yellow-300">Contact</a></li>
+                    <li><a href="#" class="hover:text-yellow-300">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-yellow-100 py-20 text-center">
+        <h2 class="text-4xl font-bold mb-4">Fresh Spices for Your Kitchen</h2>
+        <p class="text-lg mb-6">Premium quality spices, delivered from our garden to your home.</p>
+        <a href="#products" class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition">Shop Now</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 container mx-auto">
+        <h3 class="text-3xl font-semibold mb-8 text-center">Our Spices</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Product Card -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/300x200" alt="Spice 1" class="w-full">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl mb-2">Cinnamon</h4>
+                    <p class="text-gray-600 mb-4">Aromatic cinnamon sticks for your recipes.</p>
+                    <p class="font-semibold mb-2">$5.00</p>
+                    <button class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/300x200" alt="Spice 2" class="w-full">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl mb-2">Turmeric</h4>
+                    <p class="text-gray-600 mb-4">Organic turmeric powder for health & flavor.</p>
+                    <p class="font-semibold mb-2">$3.50</p>
+                    <button class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/300x200" alt="Spice 3" class="w-full">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl mb-2">Black Pepper</h4>
+                    <p class="text-gray-600 mb-4">Freshly ground black pepper for all dishes.</p>
+                    <p class="font-semibold mb-2">$4.00</p>
+                    <button class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-6 mt-12 text-center">
+        &copy; 2025 Mata Spice Garden. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
